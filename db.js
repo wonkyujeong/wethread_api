@@ -2,7 +2,7 @@ const dotenv = require('dotenv')
 
 dotenv .config()
 
-const {DataSource} = require("typeorm")
+const {DataSource} = require("typeorm");
 
 const appDataSource = new DataSource({
     type: process.env.typeorm_connection,
